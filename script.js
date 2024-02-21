@@ -88,7 +88,7 @@ function updateBackground(description) {
 }
 
 
-// saharanpur
+
 const fetchSre = async () => {
     try {
         const response = await fetch("https://api.openweathermap.org/data/2.5/weather?q=saharanpur&appid=ff092519bc84a7badf9349529e5ce1d5")
