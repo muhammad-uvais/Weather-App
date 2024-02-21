@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="left-section">
+
+            <div class="logo">
+                <i class='bx bxl-google-cloud'></i>
+            </div>
+
+            <div class="weather-box">
+                <p class="temp"><span id="temp"> </span>
+                </p>
+                <p class="city"><span id="city"></span></p>
+                <p class="weather">
+                    <!-- <i class='bx bxs-cloud-rain'></i>  -->
+                    <span id="weather"></span>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="right-section">
+            <form>
+                <input type="text" id="search-input" placeholder="Search Location...">
+                <hr>
+            </form>
+
+
+            <div class="cities">
+                <ul>
+                    <li><span id="saharanpur">Saharanpur</span></li>
+                    <li><span id="delhi">Delhi</span></li>
+                    <li><span id="dehradun">Dehradun</span></li>
+                    <li><span id="lucknow">Lucknow</span></li>
+                </ul>
+
+            </div>
+            <hr>
+
+            <div class="weather-info">
+                <ul>
+                    <h1>Weather Details</h1>
+                    <li>Weather : <span id="weather-type"></span></li>
+                    <li>Wind Speed : <span id="speed"></span></li>
+                    <li>Humidity : <span id="humidity"></span></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
